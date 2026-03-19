@@ -1,4 +1,4 @@
-# OpenClaw 技能集合
+# OpenClaw 家看护技能系列脚本
 
 > 一套实用的 OpenClaw/MiniClaw 技能和脚本，用于智能家居监控、语音合成、屏幕操作等场景。
 
@@ -21,7 +21,7 @@
 在 OpenClaw 中直接对话：
 
 ```
-从 https://github.com/你的用户名/openclaw-home-watch.git 下载所有技能并安装
+从 https://github.com/DaBaiGoose/home-watch-opencraw.git 下载所有技能并安装
 ```
 
 AI 会自动执行安装命令。
@@ -31,7 +31,7 @@ AI 会自动执行安装命令。
 **Windows (PowerShell):**
 ```powershell
 # 克隆仓库
-git clone https://github.com/你的用户名/openclaw-home-watch.git
+git clone https://github.com/DaBaiGoose/home-watch-opencraw.git
 
 # 复制技能到 MiniClaw 的 workspace 目录
 $skillsDir = "$env:USERPROFILE\.miniclaw\workspace"
