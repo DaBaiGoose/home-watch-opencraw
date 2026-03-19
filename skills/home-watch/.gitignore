@@ -1,0 +1,12 @@
+# 用户配置（运行安装脚本后生成）
+config/config.json
+
+# 运行时文件
+*.log
+*.png
+last_check.txt
+test_*.png
+
+# 编辑器
+.vscode/
+.idea/

@@ -1,0 +1,51 @@
+{
+  "emulator": {
+    "type": "mumu",
+    "install_path": "D:\\Program\\MuMu\\MuMuPlayer",
+    "vm_index": 0,
+    "description": "MuMu模拟器安装路径"
+  },
+  "adb": {
+    "auto_detect": true,
+    "port_range": [16000, 16999],
+    "description": "ADB端口自动检测，通常在16000-16999范围内"
+  },
+  "mijia": {
+    "package": "com.xiaomi.smarthome",
+    "main_activity": ".SmartHomeMainActivity",
+    "description": "米家APP包名和主Activity"
+  },
+  "camera": {
+    "device_name": "小白智能摄像机",
+    "tap_device_list_x": 210,
+    "tap_device_list_y": 250,
+    "tap_open_camera_x": 222,
+    "tap_open_camera_y": 425,
+    "wait_camera_load_sec": 10,
+    "description": "摄像头操作坐标，基于1600x900分辨率"
+  },
+  "capture": {
+    "output_dir": "C:\\Users\\Administrator\\.openclaw\\media\\home-watch",
+    "crop_x": 425,
+    "crop_y": 175,
+    "crop_w": 750,
+    "crop_h": 425,
+    "keep_days": 7,
+    "description": "截图保存位置和裁剪区域"
+  },
+  "broadcast": {
+    "enabled": true,
+    "interval_ms": 300000,
+    "random_interval": true,
+    "random_range_sec": 300,
+    "tts_style": "温柔",
+    "description": "播报配置：5分钟间隔+随机化"
+  },
+  "screen": {
+    "width": 1600,
+    "height": 900,
+    "orientation": "landscape",
+    "description": "模拟器分辨率，必须为1600x900横屏"
+  },
+  "_note": "首次使用请根据实际环境修改 emulator.install_path 和 capture.output_dir"
+}
